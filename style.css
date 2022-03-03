@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;
+    border:dashed; */
+    }
+body {margin: 0%;
+  background-size: contain;
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Source Serif Pro', serif;
+    background-color: rgb(231, 237, 240);
+}
+
+/* the main container */
+
+.card{ 
+
+ width: 50%;
+ height:100%;
+  margin: 3em auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(167, 167, 167);
+  border-radius: 25px;
+}
+
+.front-card{
+  background-image:url(assets/temp\ logo.png) ;
+}
+h1
+
+{text-shadow: rgb(0, 0, 0);
+  margin-left:50%;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! *}
+
+ 
+#back-card {
+  background-image: url('assets/front-of-card-with-bigger-logo.svg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+h1{
+  /* to left align text */
+  font-size: 5em;
+  margin-top: 10%;
+  margin-left:50%;
+  
+
+  font-family: 'Bebas Neue'cursive;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.back-text {
+  margin-top: 50%;
+  margin-left:20%;
+}
+
+.icon-container{
+  display:grid;
+  /* grid-row-gap: */
+  position: absolute;
+  width: 7%;
+  margin: auto;
+  left:30px;
+  bottom:50px;
+  top: 105px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a" 
+  "b"
+  "c";
+}
+
+svg{
+  fill:rgb(34, 174, 255);
+}
+
+svg:hover{
+  fill:rgb(145, 222, 255);
+}
